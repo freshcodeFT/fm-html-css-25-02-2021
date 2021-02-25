@@ -1,0 +1,21 @@
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,th{
+  border: 3px solid black;
+  padding: 10px 15px;
+}
+
+thead{
+  text-align: center;
+}
+
+tbody{
+  text-align: right;
+}
+
+tfoot{
+  text-align: left;
+}
