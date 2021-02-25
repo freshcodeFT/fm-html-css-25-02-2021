@@ -40,5 +40,5 @@
 }
 
 .icon ~ .icon{
-  background-color: aqua;
+  margin-left: 20px;
 }
