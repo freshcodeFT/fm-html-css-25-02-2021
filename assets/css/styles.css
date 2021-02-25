@@ -1,21 +1,42 @@
-table{
-  width: 100%;
-  border-collapse: collapse;
-}
-
-td,th{
-  border: 3px solid black;
-  padding: 10px 15px;
-}
-
-thead{
+.icons-container {
+  font-size: 0;
   text-align: center;
 }
 
-tbody{
-  text-align: right;
+.icon,.iconFirst {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  /* margin: 0 50px; */
 }
 
-tfoot{
-  text-align: left;
+.iconFirst{
+  background-color: red;
+}
+
+/*
+.elem1, .elem2 - применяем стили к элементам .elem1 и .elem2
+
+.container .elem - возвращает ВСЕ элементы .elem, которые находятся внутри .container
+
+.container > .elem - возвращает элементы с классом .elem, 
+которые являются прямыми потомками элемента .container
+
+.elem1 ~ elem2 - выбирает элементы .elem2, которые находятся после элемента .elem1, 
+При этом у элементов .elem1 и .elem2 общий родитель
+*/
+.container p {
+  color: red;
+}
+
+.testClass{
+  display: inline-block;
+  height: 100px;
+  width: 40px;
+}
+
+.icon ~ .icon{
+  background-color: aqua;
 }
